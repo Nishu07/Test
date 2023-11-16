@@ -4,6 +4,34 @@ body {
     padding: 0;
 }
 
+.menu {
+    background-color: #333;
+    overflow: hidden;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    float: left;
+}
+
+.menu a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
 .hero-banner {
     background-color: #3498db;
     color: #fff;
@@ -11,22 +39,15 @@ body {
     padding: 100px 0;
 }
 
-.product-listing {
+.content {
     text-align: center;
     padding: 50px 0;
 }
 
-.product-listing h2 {
+.content h2 {
     color: #333;
 }
 
-.product-listing ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-.product-listing li {
-    display: inline-block;
-    margin: 0 10px;
-    font-size: 18px;
+.content p {
+    color: #777;
 }
